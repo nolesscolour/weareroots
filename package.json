@@ -1,0 +1,28 @@
+{
+  "name": "roots-radio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Roots: time to explore world music. Live radio from around the world, by place and genre.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/dotgothic16": "5.3.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "typescript": "5.9.3",
+    "vite": "8.3.5"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}
